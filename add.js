@@ -36,3 +36,15 @@ let userMore = +userA * +userB;
 alert(
   `just look! these are your numbers! ${userA} + ${userB} = ${userPlus}; ${userA} - ${userB} = ${userMinus}; ${userA} / ${userB} =  ${userPart}; ${userA} * ${userB} =  ${userMore}`
 );
+
+let name = confirm("yor name is Pamela Anderson?");
+if (name) {
+  alert("I love you, Pam!");
+} else {
+  let userName = prompt("Who are you? write me your name!");
+  if (userName) {
+    alert(`nice to meet you, ${username}!`);
+  } else {
+    alert("Chao-cacao!");
+  }
+}
